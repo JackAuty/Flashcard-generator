@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+  <input
+  type="file"
+  id="inputFileToRead"
+  accept=".csv"
+  onChange="loader()"
+  class="button3"
+/>
+<b></b>
+<br>
+    <button
+      type="button"
+      id="updatebackward"
+      class="button2"
+      onclick="clickBackward()"
+    >
+      Backwards
+    </button>
+    <button
+      type="button"
+      class="button1"
+      id="updateforward"
+      ,
+      onclick="clickForward()"
+    >
+      Forwards
+    </button>
+
+
+    <p id="Question Number">Question Number</p>
+    <p id="displayQuestionNumber"></p>
+    <p id="Question">Question</p>
+    <p id="displayQuestion"></p>
+    <p id="displayImage"></p>
+    <p id="Answer">Answer</p>
+    <p id="displayAnswer"></p>
+    <button type="button" id="updateAnswer" , onclick="Answer()">Answer</button>
+  </body>
+</html>
